@@ -36,7 +36,7 @@ This tutorial outlines the implementation of Active Directory and Group Policy O
 
 <h3>Active Directory Diagram</h3>
 <p>
-<img src="https://i.imgur.com/YoLr6uO.jpeg" height="80%" width="50%" alt="Active Directory Diagram"/>
+<img src="https://i.imgur.com/ybagezd.jpeg" height="80%" width="50%" alt="Active Directory Diagram"/>
 </p>
 <p>
 The Active Directory Diagram shows all Organizational Units (OU's), Users and Groups. We grouped people with similar job responsabilities together to later apply the permissions. In this case, we have the Character and Dragons Groups and every member has its name and username displayed. 
