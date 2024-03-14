@@ -80,6 +80,28 @@ We produced a new server "Serverb" with Windows server 2016 and file server. The
 <img src="https://i.imgur.com/3aIlGBR.png" height="80%" width="60%" alt="File Server"/>
 </p>
 <p>
-
+Inside Serverb, on File and Storage Services is located the Shares section, in the Shares section we created a shared folder for each OU's and added to additonal shares: Public and Home. The we shared the folders and in terms of permissions, we added the respecive groups with full control to each of them. Lastly, we configured and redirected users from home folder to the home share. In the last picture, Servera is able to access to the folder "Testing Redirect Folder" created on Serverb. 
 </p>
+<br />
+
+<h3>Configuration of Group Policies</h3>
+<p>
+We created a Windows 10 desktop client to test the settings as a user.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Ej5L9o3.png" height="80%" width="80%" alt="Group Policies"/>
+<img src="https://i.imgur.com/g0zPTOs.png" height="80%" width="80%" alt="Group Policies"/>
+</p>
+<p>
+To disable the command prompt using Group Policy Objects (GPOs), we first accessed the Group Policy Management Console (GPMC) on a domain-joined Windows server, in this case, the Servera. Next, we navigated to the desired organizational unit (OU) or domain in the GPMC and created a new GPO. Within the Group Policy Management Editor, we navigated to User Configuration > Administrative Templates > System. Here, we located the policy setting named "Prevent access to the command prompt" and double-clicked to modify it. We then set the policy to "Enabled" to prevent users from accessing the command prompt. After applying the changes, we ensured that the GPO is linked to the appropriate OU and domain. Finally, we forced a Group Policy update on client computer if immediate enforcement is required. This process effectively disables the command prompt for users within the specified scope of the GPO, helping to enforce security policies and prevent unauthorized command execution.
+<br />
+
+<p>
+<img src="https://i.imgur.com/LiYs4xe.png" height="80%" width="80%" alt="Group Policies"/>
+<img src="https://i.imgur.com/6oAQvX9.png" height="80%" width="80%" alt="Group Policies"/>
+</p>
+<p>
+To list limited allowed Control Panel items using Group Policy Objects (GPOs) within the Group Policy Management Editor, we navigated to User Configuration > Administrative Templates > Control Panel. Here, we located the policy setting named "Show only specified Control Panel items" and double-click to modify it. We then set the policy to "Enabled" and added the list of Control Panel items that we want to allow users to access. After applying the changes, we ensure that the GPO is linked to the appropriate OU or domain. 
 <br />
