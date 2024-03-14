@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/H7BNbwq.png" height="30%" width="15%" alt="VMware Workstation Logo"/>
 </p>
 
-<h1>Creating Network Diagrams, Building Servers and Configuring Group Policies</h1>
+<h1>Creating Network and Active Directory Diagrams, Building Servers and Configuring Group Policies</h1>
 This tutorial outlines the implementation of Active Directory and Group Policy Objects (GPOs) to streamline administrative tasks and enforce centralized management policies within VMware Workstation virtual machines.<br />
 
 
