@@ -30,7 +30,7 @@ This tutorial outlines the implementation of Active Directory and Group Policy O
 <img src="https://i.imgur.com/1B21jeX.jpeg" height="80%" width="80%" alt="Network Diagram"/>
 </p>
 <p>
-<strong>Inn of the Last Home</strong> is the domain of the network. The Virtual Machines named are Servera, Serverb, and Serverc. This network includes: two servers running Active Directory Domain Services (ADDS), two servers running DNS (the primary domain server and another server), one server running DHCP, two file and print servers, and one web server (IIS). The virtual machines
+<strong>Inn of the Last Home</strong> is the domain of the network. The Virtual Machines named are Servera, Serverb, and Serverc. This network includes: two servers running Active Directory Domain Services (ADDS), two servers running DNS (the primary domain server and another server), one server running DHCP, two file and print servers, and one web server (IIS).
 </p>
 <br />
 
