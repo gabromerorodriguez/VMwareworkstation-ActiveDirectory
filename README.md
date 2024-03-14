@@ -76,8 +76,8 @@ We produced a new server "Serverb" with Windows server 2016 and file server. The
 
 <p>
 <img src="https://i.imgur.com/2kiVEO0.png" height="80%" width="80%" alt="File Server"/>
-<img src="https://i.imgur.com/WJmaK65.png" height="80%" width="80%" alt="File Server"/>
-<img src="https://i.imgur.com/3aIlGBR.png" height="80%" width="80%" alt="File Server"/>
+<img src="https://i.imgur.com/WJmaK65.png" height="80%" width="60%" alt="File Server"/>
+<img src="https://i.imgur.com/3aIlGBR.png" height="80%" width="60%" alt="File Server"/>
 </p>
 <p>
 
