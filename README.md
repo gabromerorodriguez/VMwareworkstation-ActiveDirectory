@@ -48,9 +48,38 @@ The Active Directory Diagram shows all Organizational Units (OU's), Users and Gr
 <h3>Active Directory Server</h3>
 
 <p>
-<img src="https://i.imgur.com/rAYtCKR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rAYtCKR.png" height="80%" width="80%" alt="Windows Server 2016 "/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We started by creating the Virtual Machine "Servera" with Windows Server 2016 and installed the role of Active Directory Domain Services (ADDS). 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/TvcLe9f.png" height="80%" width="80%" alt="AD Diagram"/>
+<img src="https://i.imgur.com/YsRnmyy.png" height="80%" width="80%" alt="AD Diagram"/>
+</p>
+<p>
+We created all the OU's, Users and Groups as documented from our AD diagram. 
+</p>
+<br />
+
+<h3>File Server</h3>
+
+<p>
+<img src="https://i.imgur.com/uU5uvZ4.png" height="80%" width="80%" alt="File Server"/>
+</p>
+<p>
+We produced a new server "Serverb" with Windows server 2016 and file server. Then we added the role of File Resource Manager. Serverb is joined to the domain but we did not promote it. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/2kiVEO0.png" height="80%" width="80%" alt="File Server"/>
+<img src="https://i.imgur.com/WJmaK65.png" height="80%" width="80%" alt="File Server"/>
+<img src="https://i.imgur.com/3aIlGBR.png" height="80%" width="80%" alt="File Server"/>
+</p>
+<p>
+
 </p>
 <br />
